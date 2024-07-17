@@ -1,0 +1,61 @@
+Dépôt :
+git clone https://github.com/JackWoo0831/Yolov7-tracker
+
+mv Yolov7-tracker yolov7-tracker
+cd yolov7-tracker
+git checkout v2  # change to v2 branch !!
+
+conda create -n yolov7 python=3.9 pytorch=1.12  ## ancienne version, comme indiquée dans le readme, sinon numpy.distutils manque...
+conda activate yolov7
+
+( si besoin : conda remove  --name yolov7 --all )
+
+(yolov7) 14:37:21  sylvain.faure@cinaps  ~/RN/athle/yolov7-tracker  $ pip3 install numpy scipy matplotlib cython pandas cuda-python 
+(yolov7) 15:02:25  sylvain.faure@cinaps  ~/RN/athle/yolov7-tracker  $ pip3 install -r requirements.txt
+
+(yolov7) 15:02:25  sylvain.faure@cinaps  ~/RN/athle/yolov7-tracker  $ pip3 install ultralytics==8.0.94
+
+#################
+## TRAIN
+#################
+
+## entrainement avec un premier dataset : ~/RN/athle/yolov7-tracker/dataset1_2024_06_19/ 
+Deux fichiers de configuration créées : 
+tracker/config_files/dataset1_2024_06_19.yaml
+data/files_dataset1_2024_06_19.yaml 
+
+yolov7 sur node20 du cluster :
+
+## pour voir la version de CUDA du noeud :
+(yolov7) sylvain.faure@node20:~$ nvidia-smi 
+=> cuda 11.4 sur node20
+
+cf notes d'installation de pytorch pour trouver les bonnes versions : https://pytorch.org/get-started/previous-versions/
+pip3 install torch==2.2.2 torchvision==0.17.2 torchaudio==2.2.2 --index-url https://download.pytorch.org/whl/cu118
+pip3 install filterpy
+
+## test pour verifier que cuda est bien ok :
+>>> import torch
+>>> torch.cuda.is_available()
+True
+
+## lancement de l'entrainement :
+
+(yolov7) sylvain.faure@node20:~/RN/athle/yolov7-tracker$  python3 train.py --dataset dataset1_2024_06_19__ --workers 1  --device 0 --batch-size 4 --data data/dataset1_2024_06_19/dataset.yaml  --img 1280 720 --cfg cfg/training/yolov7x_dataset1_2024_06_19.yaml  --weights ''  --name yolov7x-dataset1_2024_06_19  --hyp data/hyp.scratch.custom.yaml
+
+
+Si erreur : _pickle.UnpicklingError: STACK_GLOBAL requires str
+Effacer les fichiers .cache : liste_images.cache par exemple...
+(yolov7) sylvain.faure@node20:~/RN/athle/yolov7-tracker$rm data/dataset1_2024_06_19/liste_images.cache
+
+Si erreur np.int => remplacer par des np.int64
+
+Si erreur cuda/cpu dans loss.py :
+you have to replace the line in the file yolo7/utils/loss.py
+"from_which_layer.append((torch.ones(size=(len(b),)) * i)"
+to "from_which_layer.append((torch.ones(size=(len(b),)) * i).to('cuda'))",
+and add new line "fg_mask_inboxes = fg_mask_inboxes.to(torch.device('cuda'))"
+after "fg_mask_inboxes = matching_matrix.sum(0) > 0.0"
+so you need to do it 3 times in the file
+
+

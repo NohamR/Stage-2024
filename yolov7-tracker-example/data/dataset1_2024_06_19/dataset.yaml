@@ -1,0 +1,4 @@
+train: data/dataset1_2024_06_19/liste_images.txt
+val: data/dataset1_2024_06_19/liste_images.txt
+nc: 1
+names: ['coureur']

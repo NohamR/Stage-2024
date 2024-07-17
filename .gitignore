@@ -128,15 +128,20 @@ dmypy.json
 # node
 node_modules/
 *.tar
+*init.pt
+*best.pt
+*.pt
+
+/yolov7-tracker-example/data/dataset1_2024_06_19/vott-json-export.zip
 
 /test
 # /yolov7-setup
 
 # /yolov7-tracker-example
-/yolov7-tracker-example/cfg/training/yolov7x_dataset1_2024_06_19.yaml
-/yolov7-tracker-example/data/dataset1_2024_06_19
-/yolov7-tracker-example/runs
-/yolov7-tracker-example/tracker/config_files/dataset1_2024_06_19.yaml
-/yolov7-tracker-example/wandb
-/yolov7-tracker-example/info_SF.txt
-/yolov7-tracker-example/400m.mp4
+# /yolov7-tracker-example/cfg/training/yolov7x_dataset1_2024_06_19.yaml
+# /yolov7-tracker-example/data/dataset1_2024_06_19
+# /yolov7-tracker-example/runs
+# /yolov7-tracker-example/tracker/config_files/dataset1_2024_06_19.yaml
+# /yolov7-tracker-example/wandb
+# /yolov7-tracker-example/info_SF.txt
+# /yolov7-tracker-example/400m.mp4
