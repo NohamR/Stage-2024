@@ -54,6 +54,9 @@ dataset_name
 # Launch train
 python3 train.py --dataset dataset1_2024_06_19__ --workers 1  --device 0 --batch-size 4 --data data/dataset1_2024_06_19/datasetyaml  --img 1280 720 --cfg cfg/training/yolov7x_dataset1_2024_06_19.yaml  --weights ''  --name yolov7x-dataset1_2024_06_19  --hyp data/hyp.scratch.custom.yaml
 
+python3 train.py --dataset dataset2fps_20240718_ --workers 1 --device 0 --batch-size 4 --data data/dataset2fps/dataset.yaml  --img 1280 720 --cfg cfg/training/yolov7x_dataset2fps.yaml --weights '' --name yolov7x-dataset2fps_20240718 --hyp data/hyp.scratch.custom.yaml
+
+
 Si erreur : _pickle.UnpicklingError: STACK_GLOBAL requires str
 Effacer les fichiers .cache : liste_images.cache par exemple...
 

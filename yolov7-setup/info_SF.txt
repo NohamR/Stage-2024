@@ -42,8 +42,9 @@ True
 ## lancement de l'entrainement :
 
 (yolov7) sylvain.faure@node20:~/RN/athle/yolov7-tracker$  python3 train.py --dataset dataset1_2024_06_19__ --workers 1  --device 0 --batch-size 4 --d
-ata data/dataset1_2024_06_19/dataset.yaml  --img 1280 720 --cfg cfg/training/yolov7x_dataset1_2024_06_19.yaml  --weights ''  --name yolov7x-dataset1_
-2024_06_19  --hyp data/hyp.scratch.custom.yaml
+ata data/dataset1_2024_06_19/dataset.yaml  --img 1280 720 --cfg cfg/training/yolov7x_dataset1_2024_06_19.yaml  --weights ''  --name yolov7x-dataset1_2024_06_19  --hyp data/hyp.scratch.custom.yaml
+
+python3 train.py --dataset dataset2fps_20240718_ --workers 1 --device 0 --batch-size 4 --data data/dataset2fps/dataset.yaml  --img 1280 720 --cfg cfg/training/yolov7x_dataset2fps.yaml --weights '' --name yolov7x-dataset2fps_20240718 --hyp data/hyp.scratch.custom.yaml
 
 
 Si erreur : _pickle.UnpicklingError: STACK_GLOBAL requires str

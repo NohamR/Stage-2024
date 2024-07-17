@@ -1,0 +1,15 @@
+# Config file of dataset
+
+DATASET_ROOT: '/Users/noham/Documents/GitHub/Stage-2024/test/yolov7-tracker/data/dataset2fps'
+SPLIT: train
+CATEGORY_NAMES: 
+  - 'runner'
+
+CATEGORY_DICT:
+  0: 'runner'
+
+CERTAIN_SEQS:
+  - 
+
+IGNORE_SEQS:  # Seqs you want to ignore
+  - 

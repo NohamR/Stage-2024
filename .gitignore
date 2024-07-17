@@ -138,9 +138,10 @@ node_modules/
 
 
 # /yolov7-setup
-/test/yolov7-tracker/cfg/training/yolov7x_dataset2fps.yaml
-/test/yolov7-tracker/data/dataset2fps
-/test/yolov7-tracker/tracker/config_files/dataset2fps.yaml
+
+# /test/yolov7-tracker/cfg/training/yolov7x_dataset2fps.yaml
+# /test/yolov7-tracker/data/dataset2fps
+# /test/yolov7-tracker/tracker/config_files/dataset2fps.yaml
 
 # /yolov7-tracker-example
 # /yolov7-tracker-example/cfg/training/yolov7x_dataset1_2024_06_19.yaml
