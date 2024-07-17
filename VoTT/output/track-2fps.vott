@@ -1,0 +1,3909 @@
+{
+    "name": "track-2fps",
+    "securityToken": "track Token",
+    "sourceConnection": {
+        "name": "local",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiZTQ2M2QwMzg5MTc3YWIxMzIyODhjOTQ5MDY1YzMwNWM4M2NjMThmM2RkNGRjYTFjMjFkZjc3ZDZkNzgxOGVhMjJmZWY1ZmYzOGM0MzJmYWNiYWI2ZDg5YjE1MmRjZjBjOWEzMGI4YThkNWZmM2EzYzY4NmNhYWU5ZjI3MzhjZGE2NjRmYWEzMGM1YjdjNGFlMWU1M2RlY2VjODVjMTIyNiIsIml2IjoiMmI5ZGRjNjY5ZTE0ZWIxMjljOWQ2YWU2OTA2Yzc0Nzg1NzdhY2UzNWM0MmFhZjhmIn0="
+        },
+        "id": "NEt50oFEB"
+    },
+    "targetConnection": {
+        "name": "output",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNWZjMTYyOTFmOTE2NTdlOTc5MmUzYWI3Y2M5MjUyNDg0YzI4NDViOTUxZTk1MmY1YmEwMzkyYTkyMGMyZjFlZWJmN2MzNDFiNTkyNzAyMWY0MjE5ODYyZDM1ZjdhN2QxY2EzYzhmNGI1ZWIxNGExMjY3NmNlNGZjNzg0MmI0MDFlY2M4ZDBmNmY5MGEzZjMzMDM5OGZiMTA1Zjk3ZTYwOSIsIml2IjoiZDBjMDBhYmVhZTU5NzFmYjY1ZjM4YWQ2OTBlMDY4NmRkNGEzYWUzODQ2NTZiYTZhIn0="
+        },
+        "id": "qZXVTIp4c"
+    },
+    "description": "test",
+    "videoSettings": {
+        "frameExtractionRate": 2
+    },
+    "tags": [
+        {
+            "name": "runner",
+            "color": "#5db300"
+        }
+    ],
+    "id": "gDzC-O60j",
+    "activeLearningSettings": {
+        "autoDetect": false,
+        "predictTag": true,
+        "modelPathType": "coco"
+    },
+    "exportFormat": {
+        "providerType": "vottJson",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiMTdjY2MwODYwNTJmNGFhM2Q0YzExNmY2ZTNiY2ZhOGRlNmM2ZDdlNTVmNDMzOGE1YmI3NzZjMjZmZDk4ODI2YzM2NDk3YWQzOWE0NjUxY2RlNGFlYTEzMDJkNTAwNTE3IiwiaXYiOiJiZDEwNGVjNDU5MGZkMzU0OTgzMGViOTY2NDkyOGMyYTNlZjNkMmE3YzE2ZDI4ODcifQ=="
+        }
+    },
+    "version": "2.2.0",
+    "lastVisitedAssetId": "f78f3ff666c27c1bcf64c8af1ea37192",
+    "assets": {
+        "f78f3ff666c27c1bcf64c8af1ea37192": {
+            "format": "mp4",
+            "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+            "name": "1999-t.mp4",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 2
+        },
+        "70af677fe00d29cd206f49556d4028ce": {
+            "id": "70af677fe00d29cd206f49556d4028ce",
+            "format": "mp4",
+            "state": 1,
+            "type": 3,
+            "name": "1999-t.mp4#t=0",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=0",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 0
+        },
+        "2718564953a3146f6caa799fa3775831": {
+            "id": "2718564953a3146f6caa799fa3775831",
+            "format": "066667",
+            "state": 1,
+            "type": 3,
+            "name": "1999-t.mp4#t=10.066667",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=10.066667",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 10.066667
+        },
+        "76d85a7e63576d9921656f9ee6b26103": {
+            "id": "76d85a7e63576d9921656f9ee6b26103",
+            "format": "533333",
+            "state": 1,
+            "type": 3,
+            "name": "1999-t.mp4#t=2.533333",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=2.533333",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 2.533333
+        },
+        "d0b4b1168adf5f63e6b20e34900ec85a": {
+            "id": "d0b4b1168adf5f63e6b20e34900ec85a",
+            "format": "2",
+            "state": 1,
+            "type": 3,
+            "name": "1999-t.mp4#t=0.2",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=0.2",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 0.2
+        },
+        "70c11c5afce6708391d9d7cad66e8ec4": {
+            "id": "70c11c5afce6708391d9d7cad66e8ec4",
+            "format": "733333",
+            "state": 1,
+            "type": 3,
+            "name": "1999-t.mp4#t=5.733333",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=5.733333",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 5.733333
+        },
+        "5584e07fe8fdc628fa8c8a0738ec67ee": {
+            "id": "5584e07fe8fdc628fa8c8a0738ec67ee",
+            "format": "333333",
+            "state": 1,
+            "type": 3,
+            "name": "1999-t.mp4#t=0.333333",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=0.333333",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 0.333333
+        },
+        "6746ccfc7c39faa3e427211dd465362d": {
+            "id": "6746ccfc7c39faa3e427211dd465362d",
+            "format": "266667",
+            "state": 1,
+            "type": 3,
+            "name": "1999-t.mp4#t=0.266667",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=0.266667",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 0.266667
+        },
+        "e2f6e6eba0bb5614da3b7fe63ded35e4": {
+            "id": "e2f6e6eba0bb5614da3b7fe63ded35e4",
+            "format": "066667",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=0.066667",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=0.066667",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 0.066667,
+            "predicted": true
+        },
+        "5fa6399e03f89b312c4d14d4248dedef": {
+            "id": "5fa6399e03f89b312c4d14d4248dedef",
+            "format": "133333",
+            "state": 1,
+            "type": 3,
+            "name": "1999-t.mp4#t=0.133333",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=0.133333",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 0.133333
+        },
+        "df576932d545098121ef9731b0f66c41": {
+            "id": "df576932d545098121ef9731b0f66c41",
+            "format": "4",
+            "state": 1,
+            "type": 3,
+            "name": "1999-t.mp4#t=0.4",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=0.4",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 0.4
+        },
+        "3ec5855d911df809aed5230f4998ca8d": {
+            "id": "3ec5855d911df809aed5230f4998ca8d",
+            "format": "466667",
+            "state": 1,
+            "type": 3,
+            "name": "1999-t.mp4#t=0.466667",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=0.466667",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 0.466667
+        },
+        "14a64aaae25bdca2bd124050380556ec": {
+            "id": "14a64aaae25bdca2bd124050380556ec",
+            "format": "533333",
+            "state": 1,
+            "type": 3,
+            "name": "1999-t.mp4#t=0.533333",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=0.533333",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 0.533333
+        },
+        "7e033ecf5f62c0c19566cdc410d0364f": {
+            "id": "7e033ecf5f62c0c19566cdc410d0364f",
+            "format": "6",
+            "state": 1,
+            "type": 3,
+            "name": "1999-t.mp4#t=0.6",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=0.6",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 0.6
+        },
+        "6adbe435f5ed27b29d9d1a68b7bab974": {
+            "id": "6adbe435f5ed27b29d9d1a68b7bab974",
+            "format": "666667",
+            "state": 1,
+            "type": 3,
+            "name": "1999-t.mp4#t=0.666667",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=0.666667",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 0.666667
+        },
+        "cbb18ac1c58d7ce5bb41ff8befea7cb6": {
+            "id": "cbb18ac1c58d7ce5bb41ff8befea7cb6",
+            "format": "733333",
+            "state": 1,
+            "type": 3,
+            "name": "1999-t.mp4#t=0.733333",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=0.733333",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 0.733333
+        },
+        "6a28a3b8b25ff9bfe9d2f9afdf60dd5c": {
+            "id": "6a28a3b8b25ff9bfe9d2f9afdf60dd5c",
+            "format": "8",
+            "state": 1,
+            "type": 3,
+            "name": "1999-t.mp4#t=0.8",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=0.8",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 0.8
+        },
+        "ca6f84f5e21427b93b3fa5eb2df2dfc7": {
+            "id": "ca6f84f5e21427b93b3fa5eb2df2dfc7",
+            "format": "866667",
+            "state": 1,
+            "type": 3,
+            "name": "1999-t.mp4#t=0.866667",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=0.866667",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 0.866667
+        },
+        "017403ca66c91460a04a891192fc1270": {
+            "id": "017403ca66c91460a04a891192fc1270",
+            "format": "933333",
+            "state": 1,
+            "type": 3,
+            "name": "1999-t.mp4#t=0.933333",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=0.933333",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 0.933333
+        },
+        "cac7863dd5cd063e9fe96fc3baf9863b": {
+            "id": "cac7863dd5cd063e9fe96fc3baf9863b",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=1",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=1",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 1
+        },
+        "a4f286d369414fc5e15eff1924fcac7d": {
+            "id": "a4f286d369414fc5e15eff1924fcac7d",
+            "format": "066667",
+            "state": 1,
+            "type": 3,
+            "name": "1999-t.mp4#t=1.066667",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=1.066667",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 1.066667
+        },
+        "523d91e2ad140a9079a4b6b05ec91e1f": {
+            "id": "523d91e2ad140a9079a4b6b05ec91e1f",
+            "format": "133333",
+            "state": 1,
+            "type": 3,
+            "name": "1999-t.mp4#t=1.133333",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=1.133333",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 1.133333
+        },
+        "2da969ddcfac3e94c08e762809008a9b": {
+            "id": "2da969ddcfac3e94c08e762809008a9b",
+            "format": "2",
+            "state": 1,
+            "type": 3,
+            "name": "1999-t.mp4#t=1.2",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=1.2",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 1.2
+        },
+        "43e18568a12ce7d6905f115d48b0d2f1": {
+            "id": "43e18568a12ce7d6905f115d48b0d2f1",
+            "format": "266667",
+            "state": 1,
+            "type": 3,
+            "name": "1999-t.mp4#t=1.266667",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=1.266667",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 1.266667
+        },
+        "c77bc9c4aaa1090716ba6083dbebbe9f": {
+            "id": "c77bc9c4aaa1090716ba6083dbebbe9f",
+            "format": "333333",
+            "state": 1,
+            "type": 3,
+            "name": "1999-t.mp4#t=1.333333",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=1.333333",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 1.333333
+        },
+        "25a82fe5311bf0b35f106b46823da985": {
+            "id": "25a82fe5311bf0b35f106b46823da985",
+            "format": "4",
+            "state": 1,
+            "type": 3,
+            "name": "1999-t.mp4#t=1.4",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=1.4",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 1.4
+        },
+        "5fb0d809f007bac67a5e72e89b98a9fa": {
+            "id": "5fb0d809f007bac67a5e72e89b98a9fa",
+            "format": "466667",
+            "state": 1,
+            "type": 3,
+            "name": "1999-t.mp4#t=1.466667",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=1.466667",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 1.466667
+        },
+        "bda1ecbc3ebf894e5e086b3a25a5328e": {
+            "id": "bda1ecbc3ebf894e5e086b3a25a5328e",
+            "format": "533333",
+            "state": 1,
+            "type": 3,
+            "name": "1999-t.mp4#t=1.533333",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=1.533333",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 1.533333
+        },
+        "8963fd5e43af4963f6133d2728ccc11c": {
+            "id": "8963fd5e43af4963f6133d2728ccc11c",
+            "format": "6",
+            "state": 1,
+            "type": 3,
+            "name": "1999-t.mp4#t=1.6",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=1.6",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 1.6
+        },
+        "a53e229efe31ddd0c287a74bc01058a5": {
+            "id": "a53e229efe31ddd0c287a74bc01058a5",
+            "format": "666667",
+            "state": 1,
+            "type": 3,
+            "name": "1999-t.mp4#t=1.666667",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=1.666667",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 1.666667
+        },
+        "5e90cc083221521f8bc58c89de7f5c1f": {
+            "id": "5e90cc083221521f8bc58c89de7f5c1f",
+            "format": "733333",
+            "state": 1,
+            "type": 3,
+            "name": "1999-t.mp4#t=1.733333",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=1.733333",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 1.733333
+        },
+        "4d07f70049913f86ef5b6f1d3246d271": {
+            "id": "4d07f70049913f86ef5b6f1d3246d271",
+            "format": "8",
+            "state": 1,
+            "type": 3,
+            "name": "1999-t.mp4#t=1.8",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=1.8",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 1.8
+        },
+        "83d4708c80252ad895194de8313dd3f9": {
+            "id": "83d4708c80252ad895194de8313dd3f9",
+            "format": "933333",
+            "state": 1,
+            "type": 3,
+            "name": "1999-t.mp4#t=1.933333",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=1.933333",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 1.933333
+        },
+        "3e299a5ddc753a6045b7eb6f052b8ca3": {
+            "id": "3e299a5ddc753a6045b7eb6f052b8ca3",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=2",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=2",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 2
+        },
+        "e653d8fd88eaab8d755a6fab28987a75": {
+            "id": "e653d8fd88eaab8d755a6fab28987a75",
+            "format": "133333",
+            "state": 1,
+            "type": 3,
+            "name": "1999-t.mp4#t=2.133333",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=2.133333",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 2.133333
+        },
+        "f6f28f04773aecd00b3e115cfe18d409": {
+            "id": "f6f28f04773aecd00b3e115cfe18d409",
+            "format": "2",
+            "state": 1,
+            "type": 3,
+            "name": "1999-t.mp4#t=2.2",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=2.2",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 2.2
+        },
+        "cf4767b671eb04d8a59f08226fc23246": {
+            "id": "cf4767b671eb04d8a59f08226fc23246",
+            "format": "266667",
+            "state": 1,
+            "type": 3,
+            "name": "1999-t.mp4#t=2.266667",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=2.266667",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 2.266667
+        },
+        "ad9d224b82a78762ccf71c8d586e7db6": {
+            "id": "ad9d224b82a78762ccf71c8d586e7db6",
+            "format": "333333",
+            "state": 1,
+            "type": 3,
+            "name": "1999-t.mp4#t=2.333333",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=2.333333",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 2.333333
+        },
+        "1843d232bc1e15e36b5db30487f072e9": {
+            "id": "1843d232bc1e15e36b5db30487f072e9",
+            "format": "4",
+            "state": 1,
+            "type": 3,
+            "name": "1999-t.mp4#t=2.4",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=2.4",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 2.4
+        },
+        "ffa8448188fbf9a96de579c1fb5f20b4": {
+            "id": "ffa8448188fbf9a96de579c1fb5f20b4",
+            "format": "466667",
+            "state": 1,
+            "type": 3,
+            "name": "1999-t.mp4#t=2.466667",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=2.466667",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 2.466667
+        },
+        "e51457ab82f08eb5c2cb0eb15c8f9a5f": {
+            "id": "e51457ab82f08eb5c2cb0eb15c8f9a5f",
+            "format": "666667",
+            "state": 1,
+            "type": 3,
+            "name": "1999-t.mp4#t=2.666667",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=2.666667",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 2.666667
+        },
+        "3f5b55ca1670afcaae215712aed031d4": {
+            "id": "3f5b55ca1670afcaae215712aed031d4",
+            "format": "733333",
+            "state": 1,
+            "type": 3,
+            "name": "1999-t.mp4#t=2.733333",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=2.733333",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 2.733333
+        },
+        "ec899d3bc0e2a895974c1ffe96721377": {
+            "id": "ec899d3bc0e2a895974c1ffe96721377",
+            "format": "8",
+            "state": 1,
+            "type": 3,
+            "name": "1999-t.mp4#t=2.8",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=2.8",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 2.8
+        },
+        "31203e429b9b9d646c404ff6b878e3e3": {
+            "id": "31203e429b9b9d646c404ff6b878e3e3",
+            "format": "866667",
+            "state": 1,
+            "type": 3,
+            "name": "1999-t.mp4#t=2.866667",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=2.866667",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 2.866667
+        },
+        "65530f211e806ec77ac40efa627dd26c": {
+            "id": "65530f211e806ec77ac40efa627dd26c",
+            "format": "933333",
+            "state": 1,
+            "type": 3,
+            "name": "1999-t.mp4#t=2.933333",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=2.933333",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 2.933333
+        },
+        "973927bcdf9ba91f73caeb1544b91f1d": {
+            "id": "973927bcdf9ba91f73caeb1544b91f1d",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=3",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=3",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 3
+        },
+        "f17ff7d97230e0a854ec9b69e25208e0": {
+            "id": "f17ff7d97230e0a854ec9b69e25208e0",
+            "format": "066667",
+            "state": 1,
+            "type": 3,
+            "name": "1999-t.mp4#t=3.066667",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=3.066667",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 3.066667
+        },
+        "b32a82180b3b0595066c6593091b8a3f": {
+            "id": "b32a82180b3b0595066c6593091b8a3f",
+            "format": "133333",
+            "state": 1,
+            "type": 3,
+            "name": "1999-t.mp4#t=3.133333",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=3.133333",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 3.133333
+        },
+        "24e02c1239cd15bb702b8fd00e2a72de": {
+            "id": "24e02c1239cd15bb702b8fd00e2a72de",
+            "format": "2",
+            "state": 1,
+            "type": 3,
+            "name": "1999-t.mp4#t=3.2",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=3.2",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 3.2
+        },
+        "db71020092ba15ae5b7838a501287cb5": {
+            "id": "db71020092ba15ae5b7838a501287cb5",
+            "format": "266667",
+            "state": 1,
+            "type": 3,
+            "name": "1999-t.mp4#t=3.266667",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=3.266667",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 3.266667
+        },
+        "423cb0826dbd96bca673e0224d10a128": {
+            "id": "423cb0826dbd96bca673e0224d10a128",
+            "format": "6",
+            "state": 1,
+            "type": 3,
+            "name": "1999-t.mp4#t=2.6",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=2.6",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 2.6
+        },
+        "6808d993abce610cbdffb80a2123cfc4": {
+            "id": "6808d993abce610cbdffb80a2123cfc4",
+            "format": "866667",
+            "state": 1,
+            "type": 3,
+            "name": "1999-t.mp4#t=1.866667",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=1.866667",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 1.866667
+        },
+        "6c1d55f631280712e6a019870953b037": {
+            "id": "6c1d55f631280712e6a019870953b037",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=4",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=4",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 4
+        },
+        "b77bad3ceecdbe8c65032c85db8a1fb2": {
+            "id": "b77bad3ceecdbe8c65032c85db8a1fb2",
+            "format": "933333",
+            "state": 1,
+            "type": 3,
+            "name": "1999-t.mp4#t=3.933333",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=3.933333",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 3.933333
+        },
+        "15a08701b8691afc866bdfef371174fe": {
+            "id": "15a08701b8691afc866bdfef371174fe",
+            "format": "866667",
+            "state": 1,
+            "type": 3,
+            "name": "1999-t.mp4#t=3.866667",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=3.866667",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 3.866667
+        },
+        "eb2f27b939bbb55c09bf7128d3cf059f": {
+            "id": "eb2f27b939bbb55c09bf7128d3cf059f",
+            "format": "8",
+            "state": 1,
+            "type": 3,
+            "name": "1999-t.mp4#t=3.8",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=3.8",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 3.8
+        },
+        "7e890af1b4572e8047b96eb5b09ed507": {
+            "id": "7e890af1b4572e8047b96eb5b09ed507",
+            "format": "733333",
+            "state": 1,
+            "type": 3,
+            "name": "1999-t.mp4#t=3.733333",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=3.733333",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 3.733333
+        },
+        "68ab37a4ad24e18c92632c451ab990d9": {
+            "id": "68ab37a4ad24e18c92632c451ab990d9",
+            "format": "666667",
+            "state": 1,
+            "type": 3,
+            "name": "1999-t.mp4#t=3.666667",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=3.666667",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 3.666667
+        },
+        "c5c0f2f049019843dda8b996867582ae": {
+            "id": "c5c0f2f049019843dda8b996867582ae",
+            "format": "6",
+            "state": 1,
+            "type": 3,
+            "name": "1999-t.mp4#t=3.6",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=3.6",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 3.6
+        },
+        "e622ae995a3b650bb9d205bdfda424bd": {
+            "id": "e622ae995a3b650bb9d205bdfda424bd",
+            "format": "533333",
+            "state": 1,
+            "type": 3,
+            "name": "1999-t.mp4#t=3.533333",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=3.533333",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 3.533333
+        },
+        "774f05bf9163efbea3d943bc29a1a7fa": {
+            "id": "774f05bf9163efbea3d943bc29a1a7fa",
+            "format": "466667",
+            "state": 1,
+            "type": 3,
+            "name": "1999-t.mp4#t=3.466667",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=3.466667",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 3.466667
+        },
+        "b942b0723522ff79147d5efd71d12e25": {
+            "id": "b942b0723522ff79147d5efd71d12e25",
+            "format": "4",
+            "state": 1,
+            "type": 3,
+            "name": "1999-t.mp4#t=3.4",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=3.4",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 3.4
+        },
+        "e93f23d00b7822e27841413d9f58f326": {
+            "id": "e93f23d00b7822e27841413d9f58f326",
+            "format": "333333",
+            "state": 1,
+            "type": 3,
+            "name": "1999-t.mp4#t=3.333333",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=3.333333",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 3.333333
+        },
+        "92a813152fa99bce898b8f3a4c63bd3c": {
+            "id": "92a813152fa99bce898b8f3a4c63bd3c",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=40",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=40",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 40
+        },
+        "cf13e8ff19c88372051ba9dcd7cc087c": {
+            "id": "cf13e8ff19c88372051ba9dcd7cc087c",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=0.5",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=0.5",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 0.5
+        },
+        "316d927f7221c7cce655776267a7dac4": {
+            "id": "316d927f7221c7cce655776267a7dac4",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=1.5",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=1.5",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 1.5
+        },
+        "4f4e481ce8abc96b8c154f0236122ffc": {
+            "id": "4f4e481ce8abc96b8c154f0236122ffc",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=2.5",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=2.5",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 2.5
+        },
+        "2b243fb9ede2b6873b28bf8de6da24c7": {
+            "id": "2b243fb9ede2b6873b28bf8de6da24c7",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=5",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=5",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 5
+        },
+        "f1ee329342811a5d7de7118359d1a198": {
+            "id": "f1ee329342811a5d7de7118359d1a198",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=6",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=6",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 6
+        },
+        "b15b90ddbe5009581300f53e6bce90cb": {
+            "id": "b15b90ddbe5009581300f53e6bce90cb",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=7",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=7",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 7
+        },
+        "1b1ba069c747ac4b31e5d6635b5601b2": {
+            "id": "1b1ba069c747ac4b31e5d6635b5601b2",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=8",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=8",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 8
+        },
+        "611eba8f50cc408ff5afa7ef957a98f8": {
+            "id": "611eba8f50cc408ff5afa7ef957a98f8",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=9",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=9",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 9
+        },
+        "e273cef7b63ee1acfde01ab39d438c77": {
+            "id": "e273cef7b63ee1acfde01ab39d438c77",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=10",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=10",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 10
+        },
+        "d2c8c55c7e3aa6c59705cf4cd74503f7": {
+            "id": "d2c8c55c7e3aa6c59705cf4cd74503f7",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=11",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=11",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 11
+        },
+        "853502da015b81d91ace741a56d52879": {
+            "id": "853502da015b81d91ace741a56d52879",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=12",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=12",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 12
+        },
+        "240700c69c406d4370ae6bbcc33fbe75": {
+            "id": "240700c69c406d4370ae6bbcc33fbe75",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=13",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=13",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 13
+        },
+        "350658db62ddcfa3196ef5a0da0d99da": {
+            "id": "350658db62ddcfa3196ef5a0da0d99da",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=14",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=14",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 14
+        },
+        "7e9470d52edc5a967499bc1c98847b78": {
+            "id": "7e9470d52edc5a967499bc1c98847b78",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=15",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=15",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 15
+        },
+        "efe2fd8123ef12e4a5c06e85682c3bd3": {
+            "id": "efe2fd8123ef12e4a5c06e85682c3bd3",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=16",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=16",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 16
+        },
+        "4e1009a3f78d6c5985db4e9dddf2b55e": {
+            "id": "4e1009a3f78d6c5985db4e9dddf2b55e",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=17",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=17",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 17
+        },
+        "7568ee6e344fda0ee906841ea8e61872": {
+            "id": "7568ee6e344fda0ee906841ea8e61872",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=18",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=18",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 18
+        },
+        "942750749fe47be41b75acdd6c82556d": {
+            "id": "942750749fe47be41b75acdd6c82556d",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=19",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=19",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 19
+        },
+        "31e23f4fcbc4ea2d0d8c259535c61a53": {
+            "id": "31e23f4fcbc4ea2d0d8c259535c61a53",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=20",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=20",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 20
+        },
+        "4885915e6d86ee211655f96e69b8d4f4": {
+            "id": "4885915e6d86ee211655f96e69b8d4f4",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=22",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=22",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 22
+        },
+        "79b4f83a8f84750b93eb46e40d4747ab": {
+            "id": "79b4f83a8f84750b93eb46e40d4747ab",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=21",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=21",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 21
+        },
+        "d731266b14f0e1aea7df5be91ae9db3a": {
+            "id": "d731266b14f0e1aea7df5be91ae9db3a",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=23",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=23",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 23
+        },
+        "089a0249f079fc32e76ef514f4955647": {
+            "id": "089a0249f079fc32e76ef514f4955647",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=24",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=24",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 24
+        },
+        "30ba0c62495b6dfc259adfcce0475427": {
+            "id": "30ba0c62495b6dfc259adfcce0475427",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=25",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=25",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 25
+        },
+        "04772954f8b9339257642dded1ad2805": {
+            "id": "04772954f8b9339257642dded1ad2805",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=26",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=26",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 26
+        },
+        "291966cd6eacdd8a6adbbef1a16e7c17": {
+            "id": "291966cd6eacdd8a6adbbef1a16e7c17",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=27",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=27",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 27
+        },
+        "699332bf394c5e0c2dbb73ec44be7e94": {
+            "id": "699332bf394c5e0c2dbb73ec44be7e94",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=28",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=28",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 28
+        },
+        "981ba4242a4a540a514fce2fc7c80896": {
+            "id": "981ba4242a4a540a514fce2fc7c80896",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=29",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=29",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 29
+        },
+        "fb776312c2ceb8e02ade15a882e90202": {
+            "id": "fb776312c2ceb8e02ade15a882e90202",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=30",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=30",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 30
+        },
+        "6725dc1674863642e19c43096fd71349": {
+            "id": "6725dc1674863642e19c43096fd71349",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=31",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=31",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 31
+        },
+        "80ee9a9a6326e7295316d8c2279a8375": {
+            "id": "80ee9a9a6326e7295316d8c2279a8375",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=32",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=32",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 32
+        },
+        "8744f943672a3c83943fc2cd26f56321": {
+            "id": "8744f943672a3c83943fc2cd26f56321",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=33",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=33",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 33
+        },
+        "506dae0667e6cec8816eecea9c679a2b": {
+            "id": "506dae0667e6cec8816eecea9c679a2b",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=34",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=34",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 34
+        },
+        "5515eccee60bc90fe84445427486b26a": {
+            "id": "5515eccee60bc90fe84445427486b26a",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=35",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=35",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 35
+        },
+        "1ef7d90cf1a236bd0883faeb68578b73": {
+            "id": "1ef7d90cf1a236bd0883faeb68578b73",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=36",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=36",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 36
+        },
+        "6f6757f85da17aec9f172d14866e7005": {
+            "id": "6f6757f85da17aec9f172d14866e7005",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=37",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=37",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 37
+        },
+        "18f42025f00add319bcbfd1c8676d772": {
+            "id": "18f42025f00add319bcbfd1c8676d772",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=38",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=38",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 38
+        },
+        "35100fbd0b13b97750ff8f70c0932d95": {
+            "id": "35100fbd0b13b97750ff8f70c0932d95",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=39",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=39",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 39
+        },
+        "8f5df1920bba30e9579300be14371ef9": {
+            "id": "8f5df1920bba30e9579300be14371ef9",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=41",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=41",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 41
+        },
+        "65b88147a2b4fcb99a14c813d9bf6ec9": {
+            "id": "65b88147a2b4fcb99a14c813d9bf6ec9",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=42",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=42",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 42
+        },
+        "78d61afcc4354af3b938d7903ce1e9b3": {
+            "id": "78d61afcc4354af3b938d7903ce1e9b3",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=43",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=43",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 43
+        },
+        "d882250c5e66a2a23a95ecfac24fafb1": {
+            "id": "d882250c5e66a2a23a95ecfac24fafb1",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=44",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=44",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 44
+        },
+        "f2a0fa414e4f3783fba15387d8178bb6": {
+            "id": "f2a0fa414e4f3783fba15387d8178bb6",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=45",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=45",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 45
+        },
+        "9b4082c1c8c25d08b65fb9ea1f43571d": {
+            "id": "9b4082c1c8c25d08b65fb9ea1f43571d",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=46",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=46",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 46
+        },
+        "d3de5502589378235d8119014d2f39e0": {
+            "id": "d3de5502589378235d8119014d2f39e0",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=47",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=47",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 47
+        },
+        "a23e04d87cd038f4b5356f9a8c990796": {
+            "id": "a23e04d87cd038f4b5356f9a8c990796",
+            "format": "mp4",
+            "state": 1,
+            "type": 3,
+            "name": "1999-t.mp4#t=48",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=48",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 48
+        },
+        "19e59f564153077a7c7a7ed8719ceed5": {
+            "id": "19e59f564153077a7c7a7ed8719ceed5",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=7.5",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=7.5",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 7.5
+        },
+        "875ecefa67f1499ad01c032e5b1cd1b0": {
+            "id": "875ecefa67f1499ad01c032e5b1cd1b0",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=6.5",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=6.5",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 6.5
+        },
+        "1c83b21749e07a90fae535745f391491": {
+            "id": "1c83b21749e07a90fae535745f391491",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=5.5",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=5.5",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 5.5
+        },
+        "b304824f2a9dd3c21993618c3c62063d": {
+            "id": "b304824f2a9dd3c21993618c3c62063d",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=4.5",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=4.5",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 4.5
+        },
+        "dd41f057e1f38a08cbe59a2dfd179e8b": {
+            "id": "dd41f057e1f38a08cbe59a2dfd179e8b",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=3.5",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=3.5",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 3.5
+        },
+        "4db57d66bf6d80e13f1bd73539405540": {
+            "id": "4db57d66bf6d80e13f1bd73539405540",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=8.5",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=8.5",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 8.5
+        },
+        "3d3204a27476dfeaf15f6ba9165a8d6d": {
+            "id": "3d3204a27476dfeaf15f6ba9165a8d6d",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=9.5",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=9.5",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 9.5
+        },
+        "4513e38c7f2515ad10cd999b96b46129": {
+            "id": "4513e38c7f2515ad10cd999b96b46129",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=10.5",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=10.5",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 10.5
+        },
+        "1e5de786e97999b7b6b644c52bfae21c": {
+            "id": "1e5de786e97999b7b6b644c52bfae21c",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=11.5",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=11.5",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 11.5
+        },
+        "01b7bb03165b70dace68e80daeee1666": {
+            "id": "01b7bb03165b70dace68e80daeee1666",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=12.5",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=12.5",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 12.5
+        },
+        "128f951c601a0f25741c466e0172c710": {
+            "id": "128f951c601a0f25741c466e0172c710",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=13.5",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=13.5",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 13.5
+        },
+        "302e3847a5b74a67b941736b52cbb6e9": {
+            "id": "302e3847a5b74a67b941736b52cbb6e9",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=14.5",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=14.5",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 14.5
+        },
+        "93da04f3ef40c8516768e2dac6516669": {
+            "id": "93da04f3ef40c8516768e2dac6516669",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=15.5",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=15.5",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 15.5
+        },
+        "8ba3f79a4a872e0e5eca1d4722099ad8": {
+            "id": "8ba3f79a4a872e0e5eca1d4722099ad8",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=16.5",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=16.5",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 16.5
+        },
+        "8ee2847f7138a5eb2bc7fc8913e3bce9": {
+            "id": "8ee2847f7138a5eb2bc7fc8913e3bce9",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=17.5",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=17.5",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 17.5
+        },
+        "82002b1c3b4df1b46cc496dfa5f32540": {
+            "id": "82002b1c3b4df1b46cc496dfa5f32540",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=18.5",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=18.5",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 18.5
+        },
+        "92a1a5cb18da96b8597336d6ca095dd0": {
+            "id": "92a1a5cb18da96b8597336d6ca095dd0",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=19.5",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=19.5",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 19.5
+        },
+        "521ed145d7cb02e901aabae7c4e99d37": {
+            "id": "521ed145d7cb02e901aabae7c4e99d37",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=20.5",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=20.5",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 20.5
+        },
+        "a70d5907dbba0b4e1d9731eed74b909b": {
+            "id": "a70d5907dbba0b4e1d9731eed74b909b",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=21.5",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=21.5",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 21.5
+        },
+        "9f94a82f71fbe10f3645a90a0eea489d": {
+            "id": "9f94a82f71fbe10f3645a90a0eea489d",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=22.5",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=22.5",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 22.5
+        },
+        "5f46c3d142c5547e2877bf2e01ff0832": {
+            "id": "5f46c3d142c5547e2877bf2e01ff0832",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=23.5",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=23.5",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 23.5
+        },
+        "4d82756f613a5c2ff699a7090d847f24": {
+            "id": "4d82756f613a5c2ff699a7090d847f24",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=24.5",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=24.5",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 24.5
+        },
+        "29694492fea32c90c00b6525724059e7": {
+            "id": "29694492fea32c90c00b6525724059e7",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=25.5",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=25.5",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 25.5
+        },
+        "a1ec07fa865c099fd6f9dca700a8c074": {
+            "id": "a1ec07fa865c099fd6f9dca700a8c074",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=26.5",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=26.5",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 26.5
+        },
+        "2962a05a5d45c7541f1c84940583bb1c": {
+            "id": "2962a05a5d45c7541f1c84940583bb1c",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=27.5",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=27.5",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 27.5
+        },
+        "be69ae81ae513c99345badaebd6c1d44": {
+            "id": "be69ae81ae513c99345badaebd6c1d44",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=28.5",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=28.5",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 28.5
+        },
+        "4fb2f049728457ebb10c3e39506a3458": {
+            "id": "4fb2f049728457ebb10c3e39506a3458",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=29.5",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=29.5",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 29.5
+        },
+        "d9f86eed5ae967541f47fe9cd5ae6e32": {
+            "id": "d9f86eed5ae967541f47fe9cd5ae6e32",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=30.5",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=30.5",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 30.5
+        },
+        "c83bb9dd193a66507849c8a77f990125": {
+            "id": "c83bb9dd193a66507849c8a77f990125",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=31.5",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=31.5",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 31.5
+        },
+        "df1bc9d3b979cba66800e43427703bd0": {
+            "id": "df1bc9d3b979cba66800e43427703bd0",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=32.5",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=32.5",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 32.5
+        },
+        "292a90690013ae4035da77e6d57f7913": {
+            "id": "292a90690013ae4035da77e6d57f7913",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=33.5",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=33.5",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 33.5
+        },
+        "34a449a2d242e2fda74837ca2de85ecd": {
+            "id": "34a449a2d242e2fda74837ca2de85ecd",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=34.5",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=34.5",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 34.5
+        },
+        "1151a0312d7c0360908c964fbf419a02": {
+            "id": "1151a0312d7c0360908c964fbf419a02",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=35.5",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=35.5",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 35.5
+        },
+        "c8418ccd6e0cd3041e9ff4cfd97d65e7": {
+            "id": "c8418ccd6e0cd3041e9ff4cfd97d65e7",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=36.5",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=36.5",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 36.5
+        },
+        "eb48f2a643c09a653943e4a0eae7181d": {
+            "id": "eb48f2a643c09a653943e4a0eae7181d",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=37.5",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=37.5",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 37.5
+        },
+        "cd39299bb8bb296a08ea57a3214d4f4b": {
+            "id": "cd39299bb8bb296a08ea57a3214d4f4b",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=38.5",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=38.5",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 38.5
+        },
+        "9a5ccc28f7425bd9d8d199cd9f9d64b1": {
+            "id": "9a5ccc28f7425bd9d8d199cd9f9d64b1",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=39.5",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=39.5",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 39.5
+        },
+        "3278f13851440008ed2011e484c7ec5b": {
+            "id": "3278f13851440008ed2011e484c7ec5b",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=40.5",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=40.5",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 40.5
+        },
+        "596ec6b6e4ce9988b80c9231d27bc999": {
+            "id": "596ec6b6e4ce9988b80c9231d27bc999",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=41.5",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=41.5",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 41.5
+        },
+        "61da2b0166559202a3700577befe5952": {
+            "id": "61da2b0166559202a3700577befe5952",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=42.5",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=42.5",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 42.5
+        },
+        "932526c463fc5389ae4aa6aa00668dd8": {
+            "id": "932526c463fc5389ae4aa6aa00668dd8",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=43.5",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=43.5",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 43.5
+        },
+        "d363b48ef1e5a8819fdc3f4b89a76889": {
+            "id": "d363b48ef1e5a8819fdc3f4b89a76889",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=44.5",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=44.5",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 44.5
+        },
+        "f71124f608e73f7f8dfd5c3b0c316165": {
+            "id": "f71124f608e73f7f8dfd5c3b0c316165",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=45.5",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=45.5",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 45.5
+        },
+        "69ddf7d4d7adf0127ec76bb1e3ec60dc": {
+            "id": "69ddf7d4d7adf0127ec76bb1e3ec60dc",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=46.5",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=46.5",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 46.5
+        },
+        "388f114a1c5ad818ebc608311cada8a5": {
+            "id": "388f114a1c5ad818ebc608311cada8a5",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "1999-t.mp4#t=47.5",
+            "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4#t=47.5",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "f78f3ff666c27c1bcf64c8af1ea37192",
+                "name": "1999-t.mp4",
+                "path": "file:/Users/noham/Documents/GitHub/Stage/2024/VoTT/sources/1999-t.mp4",
+                "size": {
+                    "width": 1920,
+                    "height": 1080
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 47.5
+        }
+    }
+}

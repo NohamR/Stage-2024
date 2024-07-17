@@ -1,0 +1,1 @@
+ffmpeg -i input.mp4 -ss start_time -to end_time -c copy output.mp4
