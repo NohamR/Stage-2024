@@ -1,0 +1,5 @@
+names:
+- runner
+nc: 1
+train: wandb-artifact://YOLOR/train
+val: wandb-artifact://YOLOR/val
