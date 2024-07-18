@@ -105,7 +105,7 @@ CPU:
 python3 train.py --dataset dataset2fps_20240718_ --epochs 20 --workers 1 --device cpu --batch-size 4 --data data/dataset2fps/dataset.yaml  --img 1280 720 --cfg cfg/training/yolov7x_dataset2fps.yaml --weights '' --name yolov7x-dataset2fps_20240718 --hyp data/hyp.scratch.custom.yaml
 ```
 
-Note:
+# Note:
 ```
 Si erreur : _pickle.UnpicklingError: STACK_GLOBAL requires str
 Effacer les fichiers .cache : liste_images.cache par exemple...
