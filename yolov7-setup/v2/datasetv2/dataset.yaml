@@ -1,0 +1,4 @@
+train: data/datasetv2/liste_images.txt
+val: data/datasetv2/liste_images.txt
+nc: 1
+names: ['runner']
