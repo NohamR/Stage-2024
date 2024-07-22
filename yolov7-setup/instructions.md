@@ -16,10 +16,26 @@ mv Yolov7-tracker yolov7-tracker
 cd yolov7-tracker
 git checkout v2  # change to v2 branch !!
 ```
+
+Change np.int to np.int64 in :
+utils/datasets.py
+utils/general.py
+
+Fix for GPU in [utils/loss.py](../yolov7-tracker-example/utils/loss.py.bak):
+```python
+from_which_layer.append((torch.ones(size=(len(b),)) * i).to('cuda')) ### SF #### (lines 686)
+fg_mask_inboxes = fg_mask_inboxes.to(torch.device('cuda')) ### SF #### (lines 758 & 5164 & 1568)
+```
+
+Set up env :
 ```bash
 conda create -n yolov7 python=3.9 pytorch=1.12
 conda activate yolov7
 pip3 install numpy scipy matplotlib cython pandas cuda-python
+```
+
+```
+conda env : /home/noham.rivoirard/.conda/envs/yolov7
 ```
 
 <!-- ## ERROR: Could not find a version that satisfies the requirement cuda-python (from versions: none) Requires-Python >=3.10 -->

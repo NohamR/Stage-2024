@@ -156,3 +156,5 @@ node_modules/
 /test/yolov7-tracker/wandb
 VoTT-v2-none.zip
 VoTT-v2-done.zip
+VoTT-v2/output/vott-json-export.zip
+/OpenCV/opencv
