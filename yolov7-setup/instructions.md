@@ -1,7 +1,13 @@
 # References 
 [Yolov7-tracker](https://github.com/JackWoo0831/Yolov7-tracker)
 
-[VoTT](https://github.com/microsoft/VoTT?tab=readme-ov-file#build-and-run-from-source)
+[VoTT](https://github.com/microsoft/VoTT?tab=readme-ov-file#build-and-run-from-source) [LabelIMG](https://github.com/HumanSignal/labelImg?tab=readme-ov-file#label-studio-is-a-modern-multi-modal-data-annotation-tool) [CVAT](https://github.com/cvat-ai/cvat/?tab=readme-ov-file)
+
+[https://theses.hal.science/tel-01784521/file/TH2017ChapelMarieNeige.pdf](https://theses.hal.science/tel-01784521/file/TH2017ChapelMarieNeige.pdf)
+
+[OpenCV exemples](https://github.com/opencv/opencv/tree/4.x/samples/python)
+
+[calcul de distance camera - objet](https://pyimagesearch.com/2015/01/19/find-distance-camera-objectmarker-using-python-opencv/)
 
 # Yolov7-tracker
 ```bash
@@ -23,6 +29,9 @@ pip3 install ultralytics==8.0.94
 ```
 
 # Setup cluster
+ssh sas
+ssh cinaps
+ssh node20
 ```bash
 nvidia-smi => cuda 11.4 sur node20
 ```

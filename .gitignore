@@ -154,3 +154,4 @@ node_modules/
 /test/yolov7-tracker/artifacts
 /test/yolov7-tracker/runs
 /test/yolov7-tracker/wandb
+VoTT-v2-none.zip
