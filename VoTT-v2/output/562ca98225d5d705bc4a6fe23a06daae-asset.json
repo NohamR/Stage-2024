@@ -1,0 +1,16 @@
+{
+    "asset": {
+        "format": "mp4",
+        "id": "562ca98225d5d705bc4a6fe23a06daae",
+        "name": "2012-100m.mp4",
+        "path": "file:/Users/noham/Documents/GitHub/Stage-2024/VoTT-v2/sources/2012-100m.mp4",
+        "size": {
+            "width": 1280,
+            "height": 720
+        },
+        "state": 2,
+        "type": 2
+    },
+    "regions": [],
+    "version": "2.2.0"
+}

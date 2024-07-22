@@ -1,0 +1,61 @@
+{
+    "asset": {
+        "id": "198bb7875678f5fe454ce828ce1f091f",
+        "format": "75",
+        "state": 2,
+        "type": 3,
+        "name": "2020-100m-f.mp4#t=11.75",
+        "path": "file:/Users/noham/Documents/GitHub/Stage-2024/VoTT-v2/sources/2020-100m-f.mp4#t=11.75",
+        "size": {
+            "width": 1920,
+            "height": 1080
+        },
+        "parent": {
+            "format": "mp4",
+            "id": "e47e75228694ef77b4e81a98f137199e",
+            "name": "2020-100m-f.mp4",
+            "path": "file:/Users/noham/Documents/GitHub/Stage-2024/VoTT-v2/sources/2020-100m-f.mp4",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 1,
+            "type": 2
+        },
+        "timestamp": 11.75
+    },
+    "regions": [
+        {
+            "id": "2v__mdn2R",
+            "type": "RECTANGLE",
+            "tags": [
+                "runner"
+            ],
+            "boundingBox": {
+                "height": 200.5768280632411,
+                "width": 146.49184581171238,
+                "left": 1678.8380281690143,
+                "top": 364.0130928853755
+            },
+            "points": [
+                {
+                    "x": 1678.8380281690143,
+                    "y": 364.0130928853755
+                },
+                {
+                    "x": 1825.3298739807265,
+                    "y": 364.0130928853755
+                },
+                {
+                    "x": 1825.3298739807265,
+                    "y": 564.5899209486166
+                },
+                {
+                    "x": 1678.8380281690143,
+                    "y": 564.5899209486166
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}
