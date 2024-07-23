@@ -1,0 +1,1 @@
+./waifu2x-ncnn-vulkan -i output_frame.jpg -o output_frame_up.jpg -n 3 -s 8 -v 
