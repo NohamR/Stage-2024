@@ -175,7 +175,7 @@ def main(args):
         exit(0)
 
     """3. load sequences"""
-
+    print('stride', stride)
     dataset = DemoDataset(file_name=args.obj, img_size=model_img_size, model=args.detector, stride=stride, )
     data_loader = torch.utils.data.DataLoader(dataset, batch_size=1, shuffle=False)
 

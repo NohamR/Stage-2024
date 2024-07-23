@@ -103,10 +103,9 @@ class TestDataset(Dataset):
         padded_img = padded_img.transpose(swap)
         padded_img = np.ascontiguousarray(padded_img, dtype=np.float32)
         return padded_img, r
-
     def _preprocess_yolov7(self, img, ):
         
-        img_resized = self._letterbox(img, new_shape=self.img_size, stride=self.other_param['stride'], )[0]
+        img_resized = self._letterbox(img, new_shape=self.img_size, stride=32, )[0]
         img_resized = img_resized[:, :, ::-1].transpose(2, 0, 1)  # BGR to RGB
         img_resized = np.ascontiguousarray(img_resized)
 

@@ -32,7 +32,7 @@ class Tracklet(BaseTrack):
     def __init__(self, tlwh, score, category, motion='byte'):
 
         # initial position
-        self._tlwh = np.asarray(tlwh, dtype=np.float)
+        self._tlwh = np.asarray(tlwh, dtype=np.float64)
         self.is_activated = False
 
         self.score = score
@@ -40,6 +40,8 @@ class Tracklet(BaseTrack):
 
         # kalman
         self.motion = motion
+        self.motion = 'sort'
+        motion = 'sort'
         self.kalman_filter = MOTION_MODEL_DICT[motion]()
         
         self.convert_func = self.__getattribute__('tlwh_to_' + STATE_CONVERT_DICT[motion])
@@ -363,4 +365,4 @@ class Tracklet_w_depth(Tracklet):
         cx = ret[0] + 0.5 * ret[2]
         y2 = ret[1] +  ret[3]
         lendth = 2000 - y2
-        return np.asarray([cx, y2, lendth], dtype=np.float)
+        return np.asarray([cx, y2, lendth], dtype=np.float64)
