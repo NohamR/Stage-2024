@@ -27,9 +27,8 @@ python3 tracker/track_demo.py --device cpu --obj /Users/noham/Documents/GitHub/S
 - [2018-100m_tracked.mp4](../VoTT-v2/tracking/2018-100m_tracked.mp4) ([2018-100m.mp4](../VoTT-v2/2018-100m.mp4))
 - [2023-100m_tracked.mp4](../VoTT-v2/tracking/2023-100m_tracked.mp4) ([2023-100m.mp4](../VoTT-v2/2023-100m.mp4))
 
-<video src='https://github.com/NohamR/Stage-2024/blob/main/VoTT-v2/tracking/2018-100m_tracked.mp4' width="180"></video>
-
-<video src='../VoTT-v2/tracking/2016-200m_tracked.mp4' width="180"></video>
+Mixture Variants:
+https://user-images.githubusercontent.com/6877923/115474571-03c75800-a23e-11eb-8096-8973aad5fa9f.mp4
 
 # Fixes :
 ```text
