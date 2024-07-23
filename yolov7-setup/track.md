@@ -24,11 +24,8 @@ python3 tracker/track_demo.py --device cpu --obj /Users/noham/Documents/GitHub/S
 
 # Examples :
 - [2016-200m_tracked.mp4](../VoTT-v2/tracking/2016-200m_tracked.mp4) ([2016-200m.mp4](../VoTT-v2/2016-200m.mp4))
-https://github.com/user-attachments/assets/88507b49-97b7-486d-b935-c876bc7696a0
 - [2018-100m_tracked.mp4](../VoTT-v2/tracking/2018-100m_tracked.mp4) ([2018-100m.mp4](../VoTT-v2/2018-100m.mp4))
-https://github.com/user-attachments/assets/f4f95a61-6bb4-452b-b207-e8cfc6eb0eb9
 - [2023-100m_tracked.mp4](../VoTT-v2/tracking/2023-100m_tracked.mp4) ([2023-100m.mp4](../VoTT-v2/2023-100m.mp4))
-https://github.com/user-attachments/assets/e084a3d6-2a2c-434b-9552-e455e8dad1f0
 
 # Fixes :
 ```text
