@@ -152,7 +152,7 @@ node_modules/
 # /yolov7-tracker-example/info_SF.txt
 # /yolov7-tracker-example/400m.mp4
 # /test/yolov7-tracker/artifacts
-/test/yolov7-tracker/runs
+# /test/yolov7-tracker/runs
 /test/yolov7-tracker/wandb
 VoTT-v2-none.zip
 VoTT-v2-done.zip
