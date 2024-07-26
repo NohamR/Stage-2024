@@ -1,0 +1,73 @@
+{
+    "os": "macOS-14.5-arm64-arm-64bit",
+    "python": "3.9.19",
+    "heartbeatAt": "2024-07-18T00:20:53.823954",
+    "startedAt": "2024-07-18T00:20:52.833755",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--dataset",
+        "dataset2fps_20240718_",
+        "--epochs",
+        "20",
+        "--workers",
+        "1",
+        "--device",
+        "cpu",
+        "--batch-size",
+        "4",
+        "--data",
+        "data/dataset2fps/dataset.yaml",
+        "--img",
+        "1280",
+        "720",
+        "--cfg",
+        "cfg/training/yolov7x_dataset2fps.yaml",
+        "--weights",
+        "",
+        "--name",
+        "yolov7x-dataset2fps_20240718",
+        "--hyp",
+        "data/hyp.scratch.custom.yaml"
+    ],
+    "state": "running",
+    "program": "/Users/noham/Documents/GitHub/Stage-2024/test/yolov7-tracker/train.py",
+    "codePathLocal": "train.py",
+    "codePath": "test/yolov7-tracker/train.py",
+    "git": {
+        "remote": "https://github.com/NohamR/Stage-2024.git",
+        "commit": "c9542b56841069189bbd2c868a5bc0e95b7e56bd"
+    },
+    "email": "100566912+NohamR@users.noreply.github.com",
+    "root": "/Users/noham/Documents/GitHub/Stage-2024",
+    "host": "propulsion",
+    "username": "noham",
+    "executable": "/Users/noham/miniconda3/envs/yolov7/bin/python3",
+    "cpu_count": 10,
+    "cpu_count_logical": 10,
+    "cpu_freq": {
+        "current": 3504,
+        "min": 702,
+        "max": 3504
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3504,
+            "min": 702,
+            "max": 3504
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 1858.1917190551758,
+            "used": 9.558456420898438
+        }
+    },
+    "gpuapple": {
+        "type": "Apple M2 Pro",
+        "vendor": "sppci_vendor_Apple"
+    },
+    "memory": {
+        "total": 32.0
+    }
+}

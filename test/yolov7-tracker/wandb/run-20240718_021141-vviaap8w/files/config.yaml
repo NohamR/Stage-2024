@@ -1,0 +1,252 @@
+wandb_version: 1
+
+dataset:
+  desc: null
+  value: dataset2fps_20240718_
+weights:
+  desc: null
+  value: ''
+cfg:
+  desc: null
+  value: cfg/training/yolov7x_dataset2fps.yaml
+data:
+  desc: null
+  value: data/dataset2fps/dataset.yaml
+hyp:
+  desc: null
+  value:
+    lr0: 0.01
+    lrf: 0.1
+    momentum: 0.937
+    weight_decay: 0.0005
+    warmup_epochs: 3.0
+    warmup_momentum: 0.8
+    warmup_bias_lr: 0.1
+    box: 0.05
+    cls: 0.3
+    cls_pw: 1.0
+    obj: 0.7
+    obj_pw: 1.0
+    iou_t: 0.2
+    anchor_t: 4.0
+    fl_gamma: 0.0
+    hsv_h: 0.015
+    hsv_s: 0.7
+    hsv_v: 0.4
+    degrees: 0.0
+    translate: 0.2
+    scale: 0.5
+    shear: 0.0
+    perspective: 0.0
+    flipud: 0.0
+    fliplr: 0.5
+    mosaic: 1.0
+    mixup: 0.0
+    copy_paste: 0.0
+    paste_in: 0.0
+epochs:
+  desc: null
+  value: 20
+batch_size:
+  desc: null
+  value: 4
+img_size:
+  desc: null
+  value:
+  - 1280
+  - 720
+rect:
+  desc: null
+  value: false
+resume:
+  desc: null
+  value: false
+nosave:
+  desc: null
+  value: false
+notest:
+  desc: null
+  value: false
+noautoanchor:
+  desc: null
+  value: false
+evolve:
+  desc: null
+  value: false
+bucket:
+  desc: null
+  value: ''
+cache_images:
+  desc: null
+  value: false
+image_weights:
+  desc: null
+  value: false
+device:
+  desc: null
+  value: cpu
+multi_scale:
+  desc: null
+  value: false
+single_cls:
+  desc: null
+  value: false
+adam:
+  desc: null
+  value: false
+sync_bn:
+  desc: null
+  value: false
+local_rank:
+  desc: null
+  value: -1
+workers:
+  desc: null
+  value: 1
+project:
+  desc: null
+  value: runs/train
+entity:
+  desc: null
+  value: null
+name:
+  desc: null
+  value: yolov7x-dataset2fps_20240718
+exist_ok:
+  desc: null
+  value: false
+quad:
+  desc: null
+  value: false
+linear_lr:
+  desc: null
+  value: false
+label_smoothing:
+  desc: null
+  value: 0.0
+upload_dataset:
+  desc: null
+  value: true
+bbox_interval:
+  desc: null
+  value: -1
+save_period:
+  desc: null
+  value: -1
+artifact_alias:
+  desc: null
+  value: latest
+world_size:
+  desc: null
+  value: 1
+global_rank:
+  desc: null
+  value: -1
+save_dir:
+  desc: null
+  value: runs/train/yolov7x-dataset2fps_202407182
+total_batch_size:
+  desc: null
+  value: 4
+_wandb:
+  desc: null
+  value:
+    python_version: 3.9.19
+    cli_version: 0.17.4
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1721261501
+    t:
+      1:
+      - 1
+      - 41
+      - 55
+      2:
+      - 1
+      - 41
+      - 55
+      3:
+      - 13
+      - 16
+      - 19
+      - 23
+      4: 3.9.19
+      5: 0.17.4
+      8:
+      - 4
+      - 5
+      13: darwin-arm64
+opt:
+  desc: null
+  value:
+    dataset: dataset2fps_20240718_
+    weights: ''
+    cfg: cfg/training/yolov7x_dataset2fps.yaml
+    data: data/dataset2fps/dataset.yaml
+    hyp:
+      lr0: 0.01
+      lrf: 0.1
+      momentum: 0.937
+      weight_decay: 0.0005
+      warmup_epochs: 3.0
+      warmup_momentum: 0.8
+      warmup_bias_lr: 0.1
+      box: 0.05
+      cls: 0.3
+      cls_pw: 1.0
+      obj: 0.7
+      obj_pw: 1.0
+      iou_t: 0.2
+      anchor_t: 4.0
+      fl_gamma: 0.0
+      hsv_h: 0.015
+      hsv_s: 0.7
+      hsv_v: 0.4
+      degrees: 0.0
+      translate: 0.2
+      scale: 0.5
+      shear: 0.0
+      perspective: 0.0
+      flipud: 0.0
+      fliplr: 0.5
+      mosaic: 1.0
+      mixup: 0.0
+      copy_paste: 0.0
+      paste_in: 0.0
+    epochs: 20
+    batch_size: 4
+    img_size:
+    - 1280
+    - 720
+    rect: false
+    resume: false
+    nosave: false
+    notest: false
+    noautoanchor: false
+    evolve: false
+    bucket: ''
+    cache_images: false
+    image_weights: false
+    device: cpu
+    multi_scale: false
+    single_cls: false
+    adam: false
+    sync_bn: false
+    local_rank: -1
+    workers: 1
+    project: runs/train
+    entity: null
+    name: yolov7x-dataset2fps_20240718
+    exist_ok: false
+    quad: false
+    linear_lr: false
+    label_smoothing: 0.0
+    upload_dataset: true
+    bbox_interval: -1
+    save_period: -1
+    artifact_alias: latest
+    world_size: 1
+    global_rank: -1
+    save_dir: runs/train/yolov7x-dataset2fps_202407182
+    total_batch_size: 4
