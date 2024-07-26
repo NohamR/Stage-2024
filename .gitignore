@@ -128,12 +128,12 @@ dmypy.json
 # node
 node_modules/
 
-*.tar
-*init.pt
-*best.pt
-*.pt
-*.zip
-*.mp4
+# *.tar
+# *init.pt
+# *best.pt
+# *.pt
+# *.zip
+# *.mp4
 
 # /test
 
