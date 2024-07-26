@@ -127,12 +127,13 @@ dmypy.json
 
 # node
 node_modules/
+
 *.tar
 *init.pt
 *best.pt
 *.pt
-
-/yolov7-tracker-example/data/dataset1_2024_06_19/vott-json-export.zip
+*.zip
+*.mp4
 
 # /test
 
@@ -154,12 +155,13 @@ node_modules/
 # /test/yolov7-tracker/artifacts
 # /test/yolov7-tracker/runs
 # /test/yolov7-tracker/wandb
-VoTT-v2-none.zip
-VoTT-v2-done.zip
-VoTT-v2/output/vott-json-export.zip
+# VoTT-v2-none.zip
+# VoTT-v2-done.zip
+# VoTT-v2/output/vott-json-export.zip
 # /OpenCV/opencv
-VoTT-v2/vids/Every 100m World Lead Since 2009. \[JoZOpTWBI1E\].mp4
-VoTT-v2/vids/World Record - 400m Men Final Sevilla 1999 \[udlrRIYBUsw\].mp4
-upscale/400m_alq13.mp4
-VoTT-v2/yolov7x-datasetv2_2024072211.zip
-VoTT-v2/tracking/1999-400m_tracked.mp4
+# VoTT-v2/vids/Every 100m World Lead Since 2009. \[JoZOpTWBI1E\].mp4
+# VoTT-v2/vids/World Record - 400m Men Final Sevilla 1999 \[udlrRIYBUsw\].mp4
+# upscale/400m_alq13.mp4
+# VoTT-v2/yolov7x-datasetv2_2024072211.zip
+# VoTT-v2/tracking/1999-400m_tracked.mp4
+# /yolov7-tracker-example/data/dataset1_2024_06_19/vott-json-export.zip
